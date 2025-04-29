@@ -13,7 +13,7 @@ namespace Views
         {
             foreach(Product var in productList)
             {
-                ShowProduct(var);
+                ShowProduct(var)
             }
         }
         public static void ShowProduct(Product product)
